@@ -16,6 +16,7 @@ Output:
 False
 '''
 
+import re
 
 def areBracketsProperlyMatched(code_snippet:str)->bool:
     bracket_dict = {"(":")", "[":"]", "{":"}"}

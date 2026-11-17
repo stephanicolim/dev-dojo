@@ -1,0 +1,12 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.5.9",
+    "dynaconf>=3.3.5",
+    "ollama>=0.6.3",
+    "onnxruntime<=1.23.2",
+]
